@@ -99,7 +99,7 @@ Throughout the lab, you will engage with various vulnerable environments, includ
             </input>
         </build>
 
-        <utility module_path=".*/hosts">
+        <utility module_path=".*/hosts_legacy">
             <input into="hosts">
                 <value>webserver</value>
                 <value>kali</value>
@@ -150,7 +150,7 @@ Throughout the lab, you will engage with various vulnerable environments, includ
                 <value>true</value>
             </input>
             <input into="start_page">
-                <value>http://localhost:8085/WebGoat|webserver</value>
+                <value>http://localhost:8085/WebGoat|http://localhost/|webserver</value>
             </input>
         </utility>
 
